@@ -1,6 +1,5 @@
-
 import streamlit as st
+from datetime import datetime
 
-name = st.text_input("Enter your name:")
-if name:
-    st.write(f"Hello, {name}!")
+st.write("Current time:", datetime.now())
+print("Current time:", datetime.now())
